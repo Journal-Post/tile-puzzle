@@ -21,7 +21,7 @@ public class GameLevelManager : MonoBehaviour
 
 
 
-    [InfoBox("Các item hiện trên map")]
+    [InfoBox("Items appear on the map")]
     public List<ItemData> listItemDataOnMaps = new List<ItemData>();
 
 

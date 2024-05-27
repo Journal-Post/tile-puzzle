@@ -479,7 +479,11 @@ public class GamePlayManager : MonoBehaviour
             Config.SetCurrLevel(level + 1);
             Config.currSelectLevel = Config.currLevel;
 
-            if (level >= 15 && level % 5 == 0 && !Config.GetRate()) {
+            print("====> Level completed call");
+            PrefsManager.AddStars(1);
+
+            if (level >= 15 && level % 5 == 0 && !Config.GetRate()) 
+            {
                 OpenRatePopup();
             }
         }

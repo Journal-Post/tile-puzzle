@@ -47,8 +47,8 @@ public class GamePlayManager : MonoBehaviour
     [Header("Button RemoveAds")]
     public BBUIButton btnRemoveAds;
 
-    [Header("Button PigBank")]
-    public BBUIButton btnPigBank;
+    //[Header("Button PigBank")]
+    //public BBUIButton btnPigBank;
 
     [Header("Text Level")]
     public Text txtLevel;
@@ -86,7 +86,7 @@ public class GamePlayManager : MonoBehaviour
         btnSuggest.OnPointerClickCallBack_Completed.AddListener(TouchSuggest);
         btnShuffle.OnPointerClickCallBack_Completed.AddListener(TouchShuffle);
         //btnWatchVideo.OnPointerClickCallBack_Completed.AddListener(TouchWatchVideo);
-        btnPigBank.OnPointerClickCallBack_Completed.AddListener(TouchPiggyBank);
+        //btnPigBank.OnPointerClickCallBack_Completed.AddListener(TouchPiggyBank);
 
         //AudioManager.instance.Play("Bmg");
 
@@ -165,7 +165,7 @@ public class GamePlayManager : MonoBehaviour
         //btnWatchVideo.gameObject.SetActive(false);
         btnRemoveAds.gameObject.SetActive(false);
         txtLevel.gameObject.SetActive(false);
-        btnPigBank.gameObject.SetActive(false);
+        //btnPigBank.gameObject.SetActive(false);
         bgFooter.gameObject.SetActive(false);
 
         
@@ -230,8 +230,8 @@ public class GamePlayManager : MonoBehaviour
             bgFooter.gameObject.SetActive(true);
             bgFooter.GetComponent<BBUIView>().ShowView();
 
-            btnPigBank.gameObject.SetActive(true);
-            btnPigBank.GetComponent<BBUIView>().ShowView();
+           // btnPigBank.gameObject.SetActive(true);
+           // btnPigBank.GetComponent<BBUIView>().ShowView();
 
             btnUndo.gameObject.SetActive(true);
             btnUndo.GetComponent<BBUIView>().ShowView();
@@ -499,7 +499,7 @@ public class GamePlayManager : MonoBehaviour
 
     private void SetFinishedGame() {
         btnPause.Interactable = false;
-        btnPigBank.Interactable = false;
+        //btnPigBank.Interactable = false;
         //btnWatchVideo.Interactable = false;
         btnRemoveAds.Interactable = false;
         btnShuffle.Interactable = false;
@@ -694,21 +694,21 @@ public class GamePlayManager : MonoBehaviour
 
 
     #region PIGGYBANK_COIN
-    [Header("PIGGYBANK POPUP")]
-    public PiggyBankPopup piggyBankPopup;
-    public void TouchPiggyBank() {
-        if (Config.gameState == Config.GAME_STATE.PLAYING)
-        {
-            OpenPiggyBankPopup();
+    //[Header("PIGGYBANK POPUP")]
+    //public PiggyBankPopup piggyBankPopup;
+    //public void TouchPiggyBank() {
+    //    if (Config.gameState == Config.GAME_STATE.PLAYING)
+    //    {
+    //        OpenPiggyBankPopup();
 
-            HideTut_HandGuide();
-        }
-    }
-    public void OpenPiggyBankPopup()
-    {
-        Config.gameState = Config.GAME_STATE.SHOP;
-        piggyBankPopup.OpenPiggyBank();
-    }
+    //        HideTut_HandGuide();
+    //    }
+    //}
+    //public void OpenPiggyBankPopup()
+    //{
+    //    Config.gameState = Config.GAME_STATE.SHOP;
+    //    piggyBankPopup.OpenPiggyBank();
+    //}
 
 
     #endregion
@@ -724,7 +724,7 @@ public class GamePlayManager : MonoBehaviour
 
 
         btnPause.Interactable = true;
-        btnPigBank.Interactable = true;
+       // btnPigBank.Interactable = true;
         //btnWatchVideo.Interactable = true;
         btnRemoveAds.Interactable = true;
         btnShuffle.Interactable = true;

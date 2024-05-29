@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9adcb916b0cbd9840b655b6daf7a702a
+guid: 69fe11285afd8d547aeb8cd30620a834
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,18 +134,128 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Text pngs_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 438
+        width: 122
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ff37d4278a0e42892cfe78108205f
+      internalID: 1969205378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text pngs_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 540
+        width: 231
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d0dd5b013455b4d9b89dd064e72047
+      internalID: -707917544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text pngs_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 642
+        width: 228
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3bf67275f44df408cb7af969c0bb36
+      internalID: 258244706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text pngs_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 770
+        width: 284
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f071d4c6d9706489011d628677a132
+      internalID: 1675161107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text pngs_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 890
+        width: 336
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6887ef4090939004bb1ddea27016d909
+      internalID: -139656793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 2937d9b16f55f7b4eaa21dff291c5a20
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Text pngs_0: -314992649
+      Text pngs_1: 1666553004
+      Text pngs_2: -1230391563
+      Text pngs_3: -970291231
+      Text pngs_4: 546163255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1068,7 +1068,7 @@ TextureImporter:
         width: 559
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,6 +1076,27 @@ TextureImporter:
       bones: []
       spriteID: 82b6e4b6986a5f54f9595db841e70419
       internalID: 858418984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slicing 3_21
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 526
+        width: 331
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f26d6d6721354d9035fca68cc9ede
+      internalID: 1129330128
       vertices: []
       indices: 
       edges: []

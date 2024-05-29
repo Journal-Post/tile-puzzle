@@ -122,8 +122,8 @@
 #if USE_ADMOB_PATCH
 #if USE_ADMOB
 
-                        GoogleMobileAds.Editor.GleyAdmobPatch.SetAdmobAppID(advertiserSettings[i].platformSettings[(int)SupportedPlatforms.Android].appId.id,
-                            advertiserSettings[i].platformSettings[(int)SupportedPlatforms.iOS].appId.id);
+                        //GoogleMobileAds.Editor.GleyAdmobPatch.SetAdmobAppID(advertiserSettings[i].platformSettings[(int)SupportedPlatforms.Android].appId.id,
+                        //    advertiserSettings[i].platformSettings[(int)SupportedPlatforms.iOS].appId.id);
                         AssetDatabase.SaveAssets();
 #endif
 #endif

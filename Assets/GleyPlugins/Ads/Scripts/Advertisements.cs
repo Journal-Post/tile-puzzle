@@ -307,7 +307,7 @@ public class Advertisements : MonoBehaviour
         {
             if (currentAdvertiser.useSDK)
             {
-                allAdvertisers.Add(new Advertiser(go.AddComponent<CustomAdmob>(), adSettings.GetAdvertiserSettings(SupportedAdvertisers.Admob), adSettings.GetPlaftormSettings(SupportedAdvertisers.Admob)));
+                //allAdvertisers.Add(new Advertiser(go.AddComponent<CustomAdmob>(), adSettings.GetAdvertiserSettings(SupportedAdvertisers.Admob), adSettings.GetPlaftormSettings(SupportedAdvertisers.Admob)));
             }
         }
 

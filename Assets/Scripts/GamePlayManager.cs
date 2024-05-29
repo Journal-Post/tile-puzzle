@@ -285,7 +285,7 @@ public class GamePlayManager : MonoBehaviour
 
         if (Config.CheckTutorial_2())
         {
-            Debug.LogError("Chay vao day ne");
+            Debug.Log("Chay vao day ne"); // go on this day
             ShowTut2();
         }
         if (Config.CheckTutorial_3())

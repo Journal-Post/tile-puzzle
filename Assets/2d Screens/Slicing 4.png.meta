@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37076fea5334bb74b965a103d51c603f
+guid: ab71fee4589900f4ca7f5a1542c5177f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -134,18 +134,136 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slicing 4_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1582
+        width: 957
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad13576fee8a5046b1345cb7fa63289
+      internalID: 246196675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slicing 4_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1205
+        width: 425
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f79df57a119874cbdeda556bd3278d
+      internalID: 2118138862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slicing 4_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1402
+        width: 959
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14124222925f2f14c949eb354032e16b
+      internalID: 644733548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slicing 4_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1156
+        width: 1003
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e778cbee62e716f4d9c8d08926279cfe
+      internalID: 1418341339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a1a6818b194d094459e2017352a372d8
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slicing 4_0: 644733548
+      Slicing 4_1: 1418341339
+      Slicing 4_10: -1371901352
+      Slicing 4_11: -1791842511
+      Slicing 4_12: 1921772228
+      Slicing 4_13: -1905704037
+      Slicing 4_14: -1232378028
+      Slicing 4_15: -1870289251
+      Slicing 4_16: 1642520888
+      Slicing 4_17: -1231968356
+      Slicing 4_18: -612292003
+      Slicing 4_19: 1302172394
+      Slicing 4_2: 246196675
+      Slicing 4_20: 2104475631
+      Slicing 4_21: 1746725091
+      Slicing 4_22: 282463562
+      Slicing 4_23: 1593357527
+      Slicing 4_24: -1019833153
+      Slicing 4_25: -86916768
+      Slicing 4_26: -1323231275
+      Slicing 4_27: -1449071494
+      Slicing 4_28: 2116139257
+      Slicing 4_29: 1076676996
+      Slicing 4_3: 1547521834
+      Slicing 4_30: -1053127930
+      Slicing 4_31: -1506291236
+      Slicing 4_32: 1009461239
+      Slicing 4_33: -1264120817
+      Slicing 4_4: 2118138862
+      Slicing 4_5: 794861445
+      Slicing 4_6: 1221813085
+      Slicing 4_7: 361343046
+      Slicing 4_8: -1466898047
+      Slicing 4_9: 509254228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

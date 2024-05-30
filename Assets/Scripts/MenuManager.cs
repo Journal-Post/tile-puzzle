@@ -1,16 +1,11 @@
-﻿/*
- * Created on 2022
- *
- * Copyright (c) 2022 dotmobstudio
- * Support : dotmobstudio@gmail.com
- */
+﻿
 using DG.Tweening;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Sirenix.OdinInspector;
+
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager instance;
@@ -23,7 +18,7 @@ public class MenuManager : MonoBehaviour
     public Menu_CoinGroup coinGroup;
     public BBUIButton btnRemoveAd, btnChest;
     public Image logo;
-    public GameObject lockGroup;
+    public GameObject lockGroup, gameplayArena, helpArena;
     private void Awake()
     {
         instance = this;
@@ -47,7 +42,7 @@ public class MenuManager : MonoBehaviour
         btnLevel.OnPointerClickCallBack_Completed.AddListener(TouchLevel);
         btnSpin.OnPointerClickCallBack_Completed.AddListener(TouchSpin);
 
-        txtLevel.text = $"Level: {Config.currLevel}";
+        txtLevel.text = $"Level {Config.currLevel}";
         InitViews();
 
         // if (Config.isShowStarterPack)
@@ -258,6 +253,13 @@ public class MenuManager : MonoBehaviour
         //});
         SceneManager.LoadSceneAsync("Play");
     }
+    public void LoadLevel1()
+    {
+        SoundManager.instance.PlaySound_HideView();
+        helpArena.SetActive(true);
+        gameplayArena.SetActive(false);
+    }
+
 
     [Header("SHOP")]
     public ShopPopup2 shopPopup;

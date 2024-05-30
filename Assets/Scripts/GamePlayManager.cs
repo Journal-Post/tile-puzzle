@@ -53,8 +53,8 @@ public class GamePlayManager : MonoBehaviour
     [Header("Text Level")]
     public Text txtLevel;
 
-    [Header("BG Footer")]
-    public GameObject bgFooter;
+    //[Header("BG Footer")]
+    //public GameObject bgFooter;
 
     [Header("Star Group")]
     public StarGroup starGroup;
@@ -166,7 +166,7 @@ public class GamePlayManager : MonoBehaviour
         btnRemoveAds.gameObject.SetActive(false);
         txtLevel.gameObject.SetActive(false);
         //btnPigBank.gameObject.SetActive(false);
-        bgFooter.gameObject.SetActive(false);
+        //bgFooter.gameObject.SetActive(false);
 
         
 
@@ -227,8 +227,8 @@ public class GamePlayManager : MonoBehaviour
             
 
 
-            bgFooter.gameObject.SetActive(true);
-            bgFooter.GetComponent<BBUIView>().ShowView();
+            //bgFooter.gameObject.SetActive(true);
+            //bgFooter.GetComponent<BBUIView>().ShowView();
 
            // btnPigBank.gameObject.SetActive(true);
            // btnPigBank.GetComponent<BBUIView>().ShowView();
@@ -303,7 +303,7 @@ public class GamePlayManager : MonoBehaviour
         {
             Config.SetTut_Finished(Config.TUT.TUT_TOUCHSPIN_LEVEL5);
             //ShowTut_TouchSpin();
-            OpenSpinPopup();
+         ///////////////   OpenSpinPopup();
         }
         
         lockGroup.SetActive(false);
@@ -557,24 +557,26 @@ public class GamePlayManager : MonoBehaviour
         buyItemPopup.OpenBuyItemPopup(itemHelpType);
     }
     #endregion
+
+
     #region SPIN
-    [Header("SPIN POPUP")]
-    public SpinPopup spinPopup;
+    //[Header("SPIN POPUP")]
+    //public SpinPopup spinPopup;
 
-    public void TouchWatchVideo() {
-        if (Config.gameState == Config.GAME_STATE.PLAYING)
-        {
-            OpenSpinPopup();
+    //public void TouchWatchVideo() {
+    //    if (Config.gameState == Config.GAME_STATE.PLAYING)
+    //    {
+    //        OpenSpinPopup();
 
-            HideTut_HandGuide();
-        }
-    }
+    //        HideTut_HandGuide();
+    //    }
+    //}
 
-    public void OpenSpinPopup()
-    {
-        Config.gameState = Config.GAME_STATE.SHOP;
-        spinPopup.OpenSpinPopup();
-    }
+    //public void OpenSpinPopup()
+    //{
+    //    Config.gameState = Config.GAME_STATE.SHOP;
+    //    spinPopup.OpenSpinPopup();
+    //}
 
 
     #endregion

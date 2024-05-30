@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TileMatch/Scenes/Play.unity
     guid: c5cabc288ed98704081f141ebe25edba
+  - enabled: 1
+    path: Assets/TileMatch/Scenes/Level-1.unity
+    guid: f9c051abad9519f4aa3f7333fcffaf52
   m_configObjects: {}

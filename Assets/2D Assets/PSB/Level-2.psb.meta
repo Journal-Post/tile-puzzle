@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 8ff8b5bfa887a0646a4f6cb3bcb6e98e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Girl-Stand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3192
+      y: 4
+      width: 327
+      height: 814
+    spriteID: d77a65d042fa46d4d8522fec5a8c3aef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3192, y: 4}
+    spritePosition: {x: 244, y: 384}
+  - name: Light
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1092
+      y: 4
+      width: 1066
+      height: 1724
+    spriteID: da35ab17a11fb1f4ca9fc70ed99e7a97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1092, y: 4}
+    spritePosition: {x: 8, y: 93}
+  - name: Reflection
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1092
+      y: 1736
+      width: 998
+      height: 238
+    spriteID: e5256521e2b226d4782067fc0a370fa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1092, y: 1736}
+    spritePosition: {x: 38, y: 287}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2338
+      y: 1180
+      width: 162
+      height: 268
+    spriteID: 6cfff0765e4ecef44a314755e5572478
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2338, y: 1180}
+    spritePosition: {x: 459, y: 950}
+  - name: carpet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2166
+      y: 4
+      width: 1018
+      height: 953
+    spriteID: 11882103a3934224b803bf07d47a46ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2151, y: 4}
+    spritePosition: {x: 28, y: 0}
+  - name: Pot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 530
+      width: 205
+      height: 297
+    spriteID: d5c32dbfe082f2e47a0c93dde5ebe485
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3884, y: 530}
+    spritePosition: {x: 734, y: 669}
+  - name: Pot-Shadoe
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2166
+      y: 1180
+      width: 164
+      height: 288
+    spriteID: c14d8f2e882ee5d47a02051412e31ede
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2166, y: 1180}
+    spritePosition: {x: 838, y: 681}
+  - name: L-Torch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2508
+      y: 1180
+      width: 170
+      height: 240
+    spriteID: 060e018c61938404793b32c15a37f4ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2508, y: 1180}
+    spritePosition: {x: 48, y: 1164}
+  - name: L-Fire
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2864
+      y: 1180
+      width: 153
+      height: 136
+    spriteID: a124215b46e888a40b41425840ccda2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2864, y: 1180}
+    spritePosition: {x: 61, y: 1379}
+  - name: R-Torch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2686
+      y: 1180
+      width: 170
+      height: 240
+    spriteID: 3b49c0afea773ec4ab9a3aeb16ae0a80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2686, y: 1180}
+    spritePosition: {x: 860, y: 1164}
+  - name: R-Fire
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3025
+      y: 1180
+      width: 153
+      height: 136
+    spriteID: 0d2b97c5aac650140b92c202a12cbbef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3025, y: 1180}
+    spritePosition: {x: 864, y: 1379}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3527
+      y: 530
+      width: 349
+      height: 311
+    spriteID: aa07acc7e627f5c4caab568c44fd2ef8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3527, y: 530}
+    spritePosition: {x: 0, y: 633}
+  - name: Gem
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2627
+      y: 965
+      width: 120
+      height: 157
+    spriteID: b07759fea16dba249a0b4214eb1f83fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2627, y: 965}
+    spritePosition: {x: 478, y: 1217}
+  - name: Gate
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3527
+      y: 4
+      width: 493
+      height: 518
+    spriteID: bb6ac34b801f80b40ae7484a3b4a86e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3527, y: 4}
+    spritePosition: {x: 294, y: 950}
+  - name: Stairs
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2166
+      y: 965
+      width: 453
+      height: 207
+    spriteID: e610e3d1a08d59f41882cdded06b4653
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2166, y: 965}
+    spritePosition: {x: 305, y: 743}
+  - name: BG Fixed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1080
+      height: 1920
+    spriteID: b44669a5d607fc34e8f27f5cf4b8f4a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Girl-Stand
+    spriteName: Girl-Stand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d77a65d042fa46d4d8522fec5a8c3aef
+    layerID: 115
+    mosaicPosition: {x: 3192, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light
+    spriteName: Light
+    isGroup: 0
+    parentIndex: -1
+    spriteID: da35ab17a11fb1f4ca9fc70ed99e7a97
+    layerID: 113
+    mosaicPosition: {x: 1092, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Reflection
+    spriteName: Reflection
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e5256521e2b226d4782067fc0a370fa3
+    layerID: 114
+    mosaicPosition: {x: 1092, y: 1736}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6cfff0765e4ecef44a314755e5572478
+    layerID: 112
+    mosaicPosition: {x: 2338, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: carpet
+    spriteName: carpet
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 11882103a3934224b803bf07d47a46ed
+    layerID: 110
+    mosaicPosition: {x: 2166, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pot
+    spriteName: Pot
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d5c32dbfe082f2e47a0c93dde5ebe485
+    layerID: 105
+    mosaicPosition: {x: 3884, y: 530}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pot-Shadoe
+    spriteName: Pot-Shadoe
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c14d8f2e882ee5d47a02051412e31ede
+    layerID: 100
+    mosaicPosition: {x: 2166, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: L-Torch
+    spriteName: L-Torch
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 060e018c61938404793b32c15a37f4ae
+    layerID: 98
+    mosaicPosition: {x: 2508, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: L-Fire
+    spriteName: L-Fire
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a124215b46e888a40b41425840ccda2a
+    layerID: 94
+    mosaicPosition: {x: 2864, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: R-Torch
+    spriteName: R-Torch
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3b49c0afea773ec4ab9a3aeb16ae0a80
+    layerID: 92
+    mosaicPosition: {x: 2686, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: R-Fire
+    spriteName: R-Fire
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0d2b97c5aac650140b92c202a12cbbef
+    layerID: 88
+    mosaicPosition: {x: 3025, y: 1180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aa07acc7e627f5c4caab568c44fd2ef8
+    layerID: 86
+    mosaicPosition: {x: 3527, y: 530}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Gem
+    spriteName: Gem
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b07759fea16dba249a0b4214eb1f83fa
+    layerID: 120
+    mosaicPosition: {x: 2627, y: 965}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Gate
+    spriteName: Gate
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bb6ac34b801f80b40ae7484a3b4a86e4
+    layerID: 79
+    mosaicPosition: {x: 3527, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs
+    spriteName: Stairs
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e610e3d1a08d59f41882cdded06b4653
+    layerID: 75
+    mosaicPosition: {x: 2166, y: 965}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG Fixed
+    spriteName: BG Fixed
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b44669a5d607fc34e8f27f5cf4b8f4a3
+    layerID: 71
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

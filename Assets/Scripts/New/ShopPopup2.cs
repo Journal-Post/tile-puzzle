@@ -39,15 +39,15 @@ public class ShopPopup2 : MonoBehaviour
         InitIAP();
     }
 
-    private void OnDestroy()
-    {
-        PurchaserManager.InitializeSucceeded -= PurchaserManager_InitializeSucceeded;
-        popup.ShowBehavior.onCallback_Completed.RemoveAllListeners();
-        popup.HideBehavior.onCallback_Completed.RemoveAllListeners();
+    //private void OnDestroy()
+    //{
+    //    PurchaserManager.InitializeSucceeded -= PurchaserManager_InitializeSucceeded;
+    //    popup.ShowBehavior.onCallback_Completed.RemoveAllListeners();
+    //    popup.HideBehavior.onCallback_Completed.RemoveAllListeners();
         
-        btnClose.OnPointerClickCallBack_Completed.RemoveAllListeners();
-        btnLoadMores.OnPointerClickCallBack_Completed.RemoveAllListeners();
-    }
+    //    btnClose.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //    btnLoadMores.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //}
 
     // Update is called once per frame
     void Update()

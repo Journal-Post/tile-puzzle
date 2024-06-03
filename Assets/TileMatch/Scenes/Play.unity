@@ -8428,7 +8428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11747,7 +11747,7 @@ PrefabInstance:
     - target: {fileID: 6529515676372467035, guid: 0b4a678d07ad647a89ef2f6d24bd3680,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -11.4
+      value: -11.400002
       objectReference: {fileID: 0}
     - target: {fileID: 6529515676643722012, guid: 0b4a678d07ad647a89ef2f6d24bd3680,
         type: 3}
@@ -13791,7 +13791,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 8.480002, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748774084
 MonoBehaviour:
@@ -13813,9 +13813,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0dadc719505a24491a8a41995708fb65, type: 3}
+  m_Sprite: {fileID: -1369998571, guid: f2ef432da8d97b74e8d9b9dc9e180c49, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -21454,7 +21454,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 8.480002, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185146236
 MonoBehaviour:
@@ -21476,9 +21476,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0dadc719505a24491a8a41995708fb65, type: 3}
+  m_Sprite: {fileID: -1369998571, guid: f2ef432da8d97b74e8d9b9dc9e180c49, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -30947,7 +30947,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 934206111}
         m_TargetAssemblyTypeName: WinPopup2, Assembly-CSharp
-        m_MethodName: TouchNextLevel
+        m_MethodName: TouchHome
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

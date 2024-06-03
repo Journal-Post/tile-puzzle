@@ -8,7 +8,7 @@ public class StoryHandler : MonoBehaviour
 
     public int totalfixes = 10, fixesDone = 0;
     public StoryObject[] storyObjects;
-
+    public StoryObject[] postStoryObjects;
 
 
     private void Awake()
@@ -25,19 +25,33 @@ public class StoryHandler : MonoBehaviour
         int showedItemsCount = 0;
         foreach (StoryObject item in storyObjects)
         {
-            if (showedItemsCount < 4)
+            if (showedItemsCount < 3)
             {
                 if (item.IsDisplayable())
                 {
-                    print("!!!!!!!  object: " + item.name + " is being enabled");
+                    //print("!!!!!!!  object: " + item.name + " is being enabled");
                     item.gameObject.SetActive(true);
                     item.anim.Play("placeHolderStory_Show");
                     showedItemsCount++;
-                    print("=======> object: " + item.name + " is resolved");
+                   // print("=======> object: " + item.name + " is resolved");
                 }
             }
             else
                 break;
+        }
+
+        // checking for post-Story Objects
+        if (showedItemsCount == 0)
+        {
+            foreach (StoryObject item in postStoryObjects)
+            {
+                if (item.IsDisplayable())
+                {
+                    item.gameObject.SetActive(true);
+                    item.anim.Play("placeHolderStory_Show");
+                    break;
+                }
+            }
         }
     }
 }

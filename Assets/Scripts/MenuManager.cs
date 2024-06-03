@@ -29,7 +29,7 @@ public class MenuManager : MonoBehaviour
         // }
     }
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
        // Debug.Log("Chay vao day dau tien ne");
 
@@ -261,7 +261,12 @@ public class MenuManager : MonoBehaviour
         helpArena.SetActive(true);
         gameplayArena.SetActive(false);
     }
-
+    public void BackToMainMenu()
+    {
+        SoundManager.instance.PlaySound_HideView();
+        helpArena.SetActive(false);
+        gameplayArena.SetActive(true);
+    }
 
     [Header("SHOP")]
     public ShopPopup2 shopPopup;

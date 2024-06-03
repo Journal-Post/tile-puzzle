@@ -25,7 +25,7 @@ public class PrefsManager : MonoBehaviour
     }
     public static int ShowStars()
     {
-        return PlayerPrefs.GetInt(_stars, 2);
+        return PlayerPrefs.GetInt(_stars, 5);
     }
 
 }

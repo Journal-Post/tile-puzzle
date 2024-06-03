@@ -58,30 +58,31 @@ public class WinPopup2 : MonoBehaviour
         btnClaimxReward.OnPointerClickCallBack_Completed.AddListener(TouchClaimxReward);
         btnClaimxReward.OnPointerClickCallBack_Start.AddListener(TouchClaimxReward_Start);
         
-        btnNextLevel.OnPointerClickCallBack_Completed.AddListener(TouchNextLevel);
+        //btnNextLevel.OnPointerClickCallBack_Completed.AddListener(TouchNextLevel);
+        btnNextLevel.OnPointerClickCallBack_Completed.AddListener(TouchHome);
         btnHome.OnPointerClickCallBack_Completed.AddListener(TouchHome);
         
     }
    
 
-    private void OnDestroy()
-    {
-        popupReward.ShowBehavior.onCallback_Completed.RemoveAllListeners();
-        popupReward.HideBehavior.onCallback_Completed.RemoveAllListeners();
+    //private void OnDestroy()
+    //{
+    //    popupReward.ShowBehavior.onCallback_Completed.RemoveAllListeners();
+    //    popupReward.HideBehavior.onCallback_Completed.RemoveAllListeners();
         
-        popupAction.ShowBehavior.onCallback_Completed.RemoveAllListeners();
-        popupAction.HideBehavior.onCallback_Completed.RemoveAllListeners();
+    //    popupAction.ShowBehavior.onCallback_Completed.RemoveAllListeners();
+    //    popupAction.HideBehavior.onCallback_Completed.RemoveAllListeners();
         
-        btnClaim.OnPointerClickCallBack_Completed.RemoveAllListeners();
-        btnClaimxReward.OnPointerClickCallBack_Completed.RemoveAllListeners();
-        btnClaimxReward.OnPointerClickCallBack_Start.RemoveAllListeners();
+    //    btnClaim.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //    btnClaimxReward.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //    btnClaimxReward.OnPointerClickCallBack_Start.RemoveAllListeners();
         
-        btnNextLevel.OnPointerClickCallBack_Completed.RemoveAllListeners();
-        btnHome.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //    btnNextLevel.OnPointerClickCallBack_Completed.RemoveAllListeners();
+    //    btnHome.OnPointerClickCallBack_Completed.RemoveAllListeners();
         
-        print("=======> Removed the button listeners from: " + btnNextLevel.name + " && " + btnHome.name);
-       // AdmobManager.instance.HideBannerAd();
-    }
+    //    print("=======> Removed the button listeners from: " + btnNextLevel.name + " && " + btnHome.name);
+    //   // AdmobManager.instance.HideBannerAd();
+    //}
 
     // Update is called once per frame
     void Update()

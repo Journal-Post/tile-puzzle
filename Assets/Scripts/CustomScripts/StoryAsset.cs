@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class StoryAsset : MonoBehaviour
 {
+    public bool isBrokenAsset = false;
 
+    [Tooltip("Same as StoryObject.cs gameobject")]
+    public string objectID = string.Empty;
 
     void Start()
     {
-        print("checking the object: " + gameObject.name);
-        if (PlayerPrefs.GetInt("fix" + this.gameObject.name, 0) == 1)
-            gameObject.SetActive(true);
+        //print("checking the object: " + gameObject.name);
+        if (!isBrokenAsset)
+        {
+            if (PlayerPrefs.GetInt("fix" + objectID, 0) == 1)
+                gameObject.SetActive(true);
+            else
+                gameObject.SetActive(false);
+        }
         else
-            gameObject.SetActive(false);
+        {
+            if (PlayerPrefs.GetInt("fix" + objectID, 0) == 1)
+                gameObject.SetActive(false);
+            else
+                gameObject.SetActive(true);
+        }
+    
+    
+    
     }
 
    

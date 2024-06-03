@@ -19,13 +19,13 @@ public class PrefsManager : MonoBehaviour
 
     public static void AddStars(int  starCount)
     {
-        int newStars = (starCount + PlayerPrefs.GetInt(_stars,0));
+        int newStars = (starCount + PlayerPrefs.GetInt(_stars,2));
         print("Stars added :: new stars are: " +  newStars);
         PlayerPrefs.SetInt(_stars, newStars);
     }
     public static int ShowStars()
     {
-        return PlayerPrefs.GetInt(_stars, 0);
+        return PlayerPrefs.GetInt(_stars, 2);
     }
 
 }

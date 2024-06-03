@@ -11,13 +11,13 @@ public class MenuManager : MonoBehaviour
     public static MenuManager instance;
     [Header("Canvas")]
     public CanvasScaler canvasScaler;
-    public BBUIButton btnSetting, btnGift, btnShop, btnSpin;
-    public BBUIButton btnPlay, btnParty;
-    public BBUIButton btnLevel;
+    public BBUIButton btnSetting, btnGift/*, btnShop, btnSpin*/;
+    public BBUIButton btnHelp, btnPlay, btnParty;
+    //public BBUIButton btnLevel;
     public Text txtLevel;
     public Menu_CoinGroup coinGroup;
-    public BBUIButton btnRemoveAd, btnChest;
-    public Image logo;
+   // public BBUIButton btnRemoveAd, btnChest;
+    //public Image logo;
     public GameObject lockGroup, gameplayArena, helpArena;
     private void Awake()
     {
@@ -36,11 +36,12 @@ public class MenuManager : MonoBehaviour
 
         btnSetting.OnPointerClickCallBack_Completed.AddListener(TouchSetting);
         //btnGift.OnPointerClickCallBack_Completed.AddListener(TouchGift);
-        btnShop.OnPointerClickCallBack_Completed.AddListener(TouchShop);
+       // btnShop.OnPointerClickCallBack_Completed.AddListener(TouchShop);
         btnPlay.OnPointerClickCallBack_Completed.AddListener(TouchPlay);
+        btnHelp.OnPointerClickCallBack_Completed.AddListener(LoadLevel1);
         btnParty.OnPointerClickCallBack_Completed.AddListener(TouchParty);
-        btnLevel.OnPointerClickCallBack_Completed.AddListener(TouchLevel);
-        btnSpin.OnPointerClickCallBack_Completed.AddListener(TouchSpin);
+       // btnLevel.OnPointerClickCallBack_Completed.AddListener(TouchLevel);
+        //btnSpin.OnPointerClickCallBack_Completed.AddListener(TouchSpin);
 
         txtLevel.text = $"Level {Config.currLevel}";
         InitViews();
@@ -71,7 +72,7 @@ public class MenuManager : MonoBehaviour
     
     public void SetBuyStarterPackSuccess()
     {
-        btnRemoveAd.gameObject.SetActive(!Config.GetRemoveAd());
+       // btnRemoveAd.gameObject.SetActive(!Config.GetRemoveAd());
         btnGift.gameObject.SetActive(!Config.GetBuyIAP(Config.IAP_ID.tilematch_starter_pack));
     }
 
@@ -122,15 +123,16 @@ public class MenuManager : MonoBehaviour
         lockGroup.gameObject.SetActive(false);
         btnSetting.gameObject.SetActive(false);
         //btnGift.gameObject.SetActive(false);
-        btnShop.gameObject.SetActive(false);
+        //btnShop.gameObject.SetActive(false);
         coinGroup.gameObject.SetActive(false);
+        btnHelp.gameObject.SetActive(false);
         btnPlay.gameObject.SetActive(false);
         btnParty.gameObject.SetActive(false);
-        btnLevel.gameObject.SetActive(false);
-        btnChest.gameObject.SetActive(false);
-        btnSpin.gameObject.SetActive(false);
-        btnRemoveAd.gameObject.SetActive(false);
-        logo.gameObject.SetActive(false);
+       // btnLevel.gameObject.SetActive(false);
+       // btnChest.gameObject.SetActive(false);
+       // btnSpin.gameObject.SetActive(false);
+       // btnRemoveAd.gameObject.SetActive(false);
+      //  logo.gameObject.SetActive(false);
 
 
 
@@ -159,19 +161,19 @@ public class MenuManager : MonoBehaviour
 
         sequenceShowView.InsertCallback(0.3f, () =>
         {
-            btnShop.gameObject.SetActive(true);
-            btnShop.GetComponent<BBUIView>().ShowView();
+           // btnShop.gameObject.SetActive(true);
+           // btnShop.GetComponent<BBUIView>().ShowView();
 
-            btnChest.gameObject.SetActive(true);
-            btnChest.GetComponent<BBUIView>().ShowView();
+          //  btnChest.gameObject.SetActive(true);
+          //  btnChest.GetComponent<BBUIView>().ShowView();
 
-            btnSpin.gameObject.SetActive(true);
-            btnSpin.GetComponent<BBUIView>().ShowView();
+           // btnSpin.gameObject.SetActive(true);
+           // btnSpin.GetComponent<BBUIView>().ShowView();
         });
         
         sequenceShowView.InsertCallback(1f, () =>
         {
-            btnChest.GetComponent<StarChestButton>().SetAnimation();
+          //  btnChest.GetComponent<StarChestButton>().SetAnimation();
         });
 
         sequenceShowView.InsertCallback(0.4f, () =>
@@ -186,21 +188,21 @@ public class MenuManager : MonoBehaviour
             if (!Config.GetRemoveAd())
             {
                // btnRemoveAd.gameObject.SetActive(true);
-                btnRemoveAd.GetComponent<BBUIView>().ShowView();
+            //    btnRemoveAd.GetComponent<BBUIView>().ShowView();
             }
         });
 
 
         sequenceShowView.InsertCallback(0.45f, () =>
         {
-            logo.gameObject.SetActive(true);
-            logo.GetComponent<BBUIView>().ShowView();
+          //  logo.gameObject.SetActive(true);
+          //  logo.GetComponent<BBUIView>().ShowView();
         });
 
         sequenceShowView.InsertCallback(0.5f, () =>
         {
-            btnLevel.gameObject.SetActive(true);
-            btnLevel.GetComponent<BBUIView>().ShowView();
+          //  btnLevel.gameObject.SetActive(true);
+          //  btnLevel.GetComponent<BBUIView>().ShowView();
         });
 
         sequenceShowView.InsertCallback(0.75f, () =>
@@ -209,12 +211,12 @@ public class MenuManager : MonoBehaviour
             btnPlay.GetComponent<BBUIView>().ShowView();
         });
 
-        // sequenceShowView.InsertCallback(1f, () =>
-        // {
-        //     btnParty.gameObject.SetActive(true);
-        //     btnParty.GetComponent<BBUIView>().ShowView();
-        //
-        // });
+        sequenceShowView.InsertCallback(1f, () =>
+        {
+            btnHelp.gameObject.SetActive(true);
+            btnHelp.GetComponent<BBUIView>().ShowView();
+
+        });
 
         sequenceShowView.InsertCallback(1f, () =>
         {
@@ -226,7 +228,7 @@ public class MenuManager : MonoBehaviour
             // //sequence.Insert(2f,btnGift.gameObject.GetComponent<RectTransform>().DOAnchorPosY(-10f, 1f).SetRelative(true).SetEase(Ease.Linear));
             // sequence.SetLoops(-1, LoopType.Yoyo);
 
-            logo.gameObject.GetComponent<RectTransform>().DOAnchorPosY(-30f, 1f).SetRelative(true).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
+           // logo.gameObject.GetComponent<RectTransform>().DOAnchorPosY(-30f, 1f).SetRelative(true).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
         });
     }
 

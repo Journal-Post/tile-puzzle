@@ -44,7 +44,8 @@ public class WinPopup2 : MonoBehaviour
     {
         instance = this;
     }
-    // Start is called before the first frame update
+
+    
     void Start()
     {
         popupReward.ShowBehavior.onCallback_Completed.AddListener(PopupReward_ShowView_Finished);
@@ -61,7 +62,7 @@ public class WinPopup2 : MonoBehaviour
         btnHome.OnPointerClickCallBack_Completed.AddListener(TouchHome);
         
     }
-
+   
 
     private void OnDestroy()
     {
@@ -78,6 +79,7 @@ public class WinPopup2 : MonoBehaviour
         btnNextLevel.OnPointerClickCallBack_Completed.RemoveAllListeners();
         btnHome.OnPointerClickCallBack_Completed.RemoveAllListeners();
         
+        print("=======> Removed the button listeners from: " + btnNextLevel.name + " && " + btnHome.name);
        // AdmobManager.instance.HideBannerAd();
     }
 
@@ -345,7 +347,7 @@ public class WinPopup2 : MonoBehaviour
     }
 
 
-    private void TouchNextLevel()
+    public void TouchNextLevel()
     {
         lockGroup.gameObject.SetActive(true);
        
@@ -354,7 +356,7 @@ public class WinPopup2 : MonoBehaviour
         }
     }
 
-    private void TouchHome()
+    public  void TouchHome()
     {
         lockGroup.gameObject.SetActive(true);
        
